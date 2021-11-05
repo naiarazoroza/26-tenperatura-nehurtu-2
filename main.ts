@@ -13,7 +13,8 @@ basic.forever(function () {
     if (tenperatura < 17) {
         music.playTone(392, music.beat(BeatFraction.Quarter))
         music.playTone(330, music.beat(BeatFraction.Quarter))
-    } else if (tenperatura > 20) {
+    }
+    if (tenperatura > 20) {
         music.playTone(370, music.beat(BeatFraction.Quarter))
         music.playTone(311, music.beat(BeatFraction.Quarter))
     }
